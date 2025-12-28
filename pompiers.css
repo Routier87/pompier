@@ -1,0 +1,26 @@
+/* pompiers.css */
+.pompiers .menu {
+    width: 400px !important;
+    max-height: 600px !important;
+    font-size: 18px !important;
+}
+
+.pompiers .menu .title {
+    font-size: 22px !important;
+    padding: 15px !important;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(139,0,0,1) 100%) !important;
+}
+
+.pompiers .menu .items {
+    max-height: 550px !important;
+}
+
+.pompiers .menu .item {
+    font-size: 16px !important;
+    padding: 12px !important;
+    margin: 5px !important;
+}
+
+.pompiers .menu .item.selected {
+    background-color: rgba(255, 0, 0, 0.3) !important;
+}
